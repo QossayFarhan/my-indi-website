@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>INDIVIDUAL ASSIGNMENT</title>
+  <!--main css-->
+	<link rel="stylesheet" type="text/css" href="calc.css">
+  <link rel="stylesheet" type="text/css" href="trycss.css">
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- Roboto Font-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+  <!-- Font awesome-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <script type="text/javascript" src="script.js"></script>
+	
+</head>
+<body>
+   
+   <header id="HOME">
+     
+       <div class="home-background" style="margin-top:-80px;">
+         <div class="Header-top">
+           <div id="navbar">
+             <div class="Top_Most">
+               <a href="https://www.linkedin.com/in/qossay-abuamriya-451b94213/">Qossay M A Abuamriya (Linked in)</a>
+               <a href="https://github.com/QossayFarhan">GitHub</a>
+             </div>
+             <div class="Line"></div>
+           </div>
+               
+               <div id="navba">
+                  <div class="container top-con">
+                     
+                    <nav>
+                       
+                      <input type="checkbox" id="check">
+                      <label for="check" class="checkbtn">
+                        <i class="fa fa-bars"></i>
+                      </label>
+                      <label class="logo">INDIVIDUAL ASSIGNMENT</label>
+                          <ul>
+                              <li><a href="home.html">HOME</a></li>
+                              <li><a href="#SERVICES">MY Content</a></li>
+                              <li><a class="active" href="#HOME">JS application</a></li>
+                              <li><a href="blog.html" target="_blank">Blog</a></li>
+                          </ul>
+                     </nav>
+
+
+                   </div>
+               </div>
+         </div> 
+       </div>
+   </header>
+
+  <section id="SERVICES">
+    <div class="s-name">
+      <h2>Drinking Water Traker</h2>
+      <span class="small-line"></span>
+    </div>
+    <div class="s-name">
+      <h2>Drinking Water Traker</h2>
+      <span class="small-line"></span>
+    </div>
+        
+          <div class="box-3" style="align-items: center; margin-top:300 px" >
+            <form id="personal_info" class="col-lg-6 offset-lg-3" style="text-align: center; ">
+            <fieldset>
+            <legend>Personal Information</legend>
+            <label for="weight">Please enter your weight:</label><br>
+            <input type="text" id="weight" size="3" maxlength="5"><br>
+            <label for="exercise">How long do you exercise per day (minutes)?</label><br>
+            <input type="text" id="exercise" size="3" maxlength="5"><br>
+            <button id="calculate" onClick="calculateWater();" style="background-color: #b1d22d;">Calculate</button>
+            <button id="clear" onclick="resetForm();" style="background-color: #b1d22d;">Clear</button><br>
+            <label for="required_water">Required daily amount in ounces:</label><br>
+            <input type="text" id="required_water" size="3" maxlength="5"><br>
+            <label for="water_bottles">Number of 16.9 ounce water bottles needed:</label><br>
+            <input type="text" id="water_bottles" size="3" maxlength="5">
+            </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+   
+</body>
+</html>       
+
+
